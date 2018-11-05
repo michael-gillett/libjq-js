@@ -1,6 +1,6 @@
 {
   "dependencies": {},
-  "name": "libjq",
+  "name": "libjq-js",
   "description": "Javascript WebAssembly bindings for JQ using the libjq C API",
   "version": "1.0.0",
   "main": "jq.js",
