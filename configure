@@ -1,0 +1,13 @@
+#! /bin/sh
+# This will pull down the necessary submodules and configure them properly for Emscripten
+# This can take 5+ minutes depending on your computer, but only needs to be run once
+
+# Configure JQ for emscripten compilation
+cd jq
+autoreconf -i
+emconfigure ./configure --disable-maintainer-mode
+
+# Configure oniguruma for emscripten compilation
+cd modules/oniguruma
+autoreconf -i
+emconfigure ./configure
