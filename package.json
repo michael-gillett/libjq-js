@@ -1,0 +1,35 @@
+{
+  "dependencies": {},
+  "name": "libjq",
+  "description": "Javascript WebAssembly bindings for JQ using the libjq C API",
+  "version": "1.0.0",
+  "main": "jq.js",
+  "devDependencies": {
+    "tape": "^4.9.1"
+  },
+  "files": [
+    "jq.js",
+    "jq.wasm"
+  ],
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michael-gillett/libjq-js.git"
+  },
+  "keywords": [
+    "jq",
+    "libjq",
+    "wasm",
+    "webassembly",
+    "web",
+    "webpack"
+  ],
+  "author": "Mike Gillett",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/michael-gillett/libjq-js/issues"
+  },
+  "homepage": "https://github.com/michael-gillett/libjq-js#readme"
+}
