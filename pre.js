@@ -63,3 +63,5 @@ function json(inputJson, filter) {
     return JSON.parse(output);
   }
 }
+
+jq = Module;
